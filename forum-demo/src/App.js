@@ -1,14 +1,14 @@
 import './App.css';
 import React, { useState } from 'react';
-import HeaderWeb from './components/HeaderWeb';
-import Login from './login/Login';
+import Login from './pages/login/Login';
+import MainPage from './pages/MainPage';
 
 
 function App() {
   return (
     <div className="App">
-      <HeaderWeb></HeaderWeb>
-      <Login></Login>
+      <Login/>
+      <MainPage/>
     </div>
   );
 }
