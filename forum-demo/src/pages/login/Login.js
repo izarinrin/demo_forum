@@ -13,7 +13,7 @@ function login() {
                 <input name="username" placeholder={'username'} />
             </div>
             <div>
-                <input name="password" placeholder={'password'} />
+                <input secureTextEntry= {true} name="password" placeholder={'password'} />
             </div>
             <div>
                 <button onClick={shoot}>Login</button>
